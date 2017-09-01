@@ -1,5 +1,6 @@
 # Color Effects
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/773ea16098ed4dfa9390f33ea0d93d7a)](https://www.codacy.com/app/Vertumnus/js-color-effects?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Vertumnus/js-color-effects&amp;utm_campaign=Badge_Grade)
 [![Coverage Status](https://coveralls.io/repos/github/Vertumnus/js-color-effects/badge.svg?branch=master)](https://coveralls.io/github/Vertumnus/js-color-effects?branch=master)
 [![npm](https://img.shields.io/npm/dt/color-effects.svg)](https://www.npmjs.com/package/color-effects)
 [![npm](https://img.shields.io/npm/v/color-effects.svg)](https://www.npmjs.com/package/color-effects)
