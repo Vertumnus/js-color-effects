@@ -5,8 +5,12 @@
 var colorLib = require('color')
 
 /**
- * @typedef {Array.<Color>} pixelArray Array of colors for pixels
+ * @typedef {Array.<Number>} colorArray Array of color
  */
+/**
+ * @typedef {Array.<colorArray>} pixelArray Array of colors for pixels
+ */
+
 
 /**
  * Color Effects class
@@ -65,7 +69,7 @@ class ColorEffects{
       return [diff, 0, 255]
    }
    
-   /*
+   /**
     * Generates the fading from one color to another
     * @param {(String|Array)} from - Color starting the fading from 
     * @param {(String|Array)} to - Color ending the fading to 
@@ -103,6 +107,7 @@ class ColorEffects{
    
    /**
     * Generates a random color value
+    * @private
     * @returns {Number}
     */
    _getRandomColorValue(){
