@@ -71,4 +71,4 @@ module.exports = function (grunt) {
    grunt.registerTask('coverage', ['npm-command:coverage'])
    grunt.registerTask('build', ['jshint', 'npm-command:coverage', 'jsdoc', 'uglify'])
    grunt.registerTask('publish', ['build', 'coveralls', 'npm-command:publish'])
-};
+}

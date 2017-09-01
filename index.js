@@ -3,4 +3,4 @@
  */
 
 
-module.exports = require("./lib/color-effects.min")
+module.exports = require('./lib/color-effects.min')
