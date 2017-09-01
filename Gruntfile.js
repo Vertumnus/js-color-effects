@@ -20,7 +20,7 @@ module.exports = function (grunt) {
          options: {
             esversion: 6,
             asi: true,
-            maxcomplexity: 5,
+            maxcomplexity: 7,
             maxdepth: 3,
             maxparams: 5
          }
