@@ -1,0 +1,41 @@
+{
+   "name": "color-effects",
+   "description": "A javascript class to generate color effects",
+   "version": "1.0.0",
+   "keywords": [
+      "effect",
+      "color",
+      "rainbow",
+      "shade",
+      "fade",
+      "random"
+   ],
+   "author": "Armin Junge",
+   "license": "MIT",
+   "repository": "git://github.com/Vertumnus/js-color-effects.git",
+   "bugs": {
+      "url": "https://github.com/Vertumnus/js-color-effects/issues"
+   },
+   "contributors": [],
+   "directories": {
+      "lib": "./lib",
+      "doc": "./doc",
+      "test": "./test"
+   },
+   "dependencies": {
+      "color": "^2.0.0"
+   },
+   "devDependencies": {
+      "grunt": "^1.0.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-uglify": "github:gruntjs/grunt-contrib-uglify#harmony",
+      "grunt-coveralls": "^1.0.1",
+      "grunt-jsdoc": "^2.1.0",
+      "grunt-npm-command": "^0.1.2",
+      "uglify-es": "github:mishoo/UglifyJS2#harmony"
+   },
+   "scripts": {
+      "test": "mocha",
+      "coverage": "nyc --reporter=lcov mocha"
+   }
+}
